@@ -1,4 +1,4 @@
-This symfony plugin allows you to create custom configuration variables in `view.yml` at the app-, module- and action-level. Inheritance works as expected. Custom keys should be added under the `.custom` key in `view.yml`.
+This symfony plugin allows you to create custom configuration variables in `view.yml` at the app-, module- and action-level. Inheritance works as expected. Custom keys should be added under the `.custom` key in `view.yml`. Custom config data is appended to the default view.yml cache file.
 
 This plugin overrides the default symfony view config handler (`sfViewConfigHandler`). If you're implementing a custom view config handler, your class should extend `adhViewConfigHandler` for this to work in tandem with yours (though, this hasn't been tested).
 
