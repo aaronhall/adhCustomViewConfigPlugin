@@ -1,0 +1,2 @@
+modules/*/config/view.yml:
+  class:    adhViewConfigHandler
