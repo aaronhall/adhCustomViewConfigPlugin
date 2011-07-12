@@ -1,2 +1,3 @@
 modules/*/config/view.yml:
   class:    adhViewConfigHandler
+  file:     <?php echo __DIR__ ?>/../lib/config/adhViewConfigHandler.class.php
